@@ -1,4 +1,12 @@
 /* ids */
+/* #text-and-video-pb {
+  padding-bottom: 200px;
+} */
+
+#line-break-pt {
+  padding-top: 500px;
+}
+
 #white-line {
   width: 100%;
   border-top: 1px solid rgb(255, 255, 255);
@@ -33,6 +41,7 @@
 
 #crypto-bg {
   background-image: url(https://cdn-images-1.medium.com/max/2000/1*chVY5UAmYsqi2XMwQ5LWbg.png);
+  background-position: cover;
 }
 
 /* classes */
@@ -65,9 +74,17 @@
   border: 10px;
 }
 
+.neg-marg {
+  margin-bottom: -10px;
+}
+
+.img-marg-bot {
+  margin-bottom: 100px;
+}
+
 .card-drop {
   position: absolute;
-  bottom: 10em;
+  bottom: -5em;
   right: 15%;
   border: 10px;
 }
@@ -90,4 +107,7 @@
 
 .light-blue-text {
   color: #92bbd1;
+}
+.crypto-bg {
+  background-image: url(https://cdn-images-1.medium.com/max/2000/1*chVY5UAmYsqi2XMwQ5LWbg.png);
 }

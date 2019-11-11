@@ -16,9 +16,10 @@
     <title>Why Cryptocurrency?</title>
   </head>
   <body>
-    <container class="container">
+    <div class="container"
+    id="crypto-bg">
       <!-- navbar -->
-      <header class="row bg-transparent pt-2" id="crypto-bg">
+      <header class="row bg-transparent pt-2">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg">
             <img
@@ -62,8 +63,7 @@
       <main>
         <!-- text & button + video  -->
         <div
-          class="row vertical-align green-text"
-          id="crypto-bg"
+          class="row vertical-align green-text text-and-video-pb"
           style="align-items: flex-end"
         >
           <div class="col-md-6 col-12 order-md-2 order-xs-1">
@@ -90,16 +90,21 @@
             </div>
           </div>
         </div>
+      </div>
         <!-- 3 rounded images + cards -->
-        <div class="row text-center green-text pb-5" id="crypto-bg">
+      <div class="container">  
+        <div class="row text-center green-text pb-5 crypto-bg">
           <div class="col-md-4 col-12">
             <img
-              class="img-fluid"
+              class="img-fluid img-marg-bot"
               id="bitcoin-pic"
               src="https://i.postimg.cc/44c3SJKD/bitcoin-black-bg.png"
               alt="Bitcoin Pic"
             />
-            <div class="card bg-black green-border" style="width: 18rem;">
+            <div
+              class="card bg-black green-border card-drop"
+              style="width: 18rem;"
+            >
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">
@@ -112,12 +117,12 @@
           </div>
           <div class="col-md-4 col-12 ">
             <img
-              class="img-fluid"
+              class="img-fluid img-marg-bot"
               id="litecoin-pic"
               src="https://i0.wp.com/www.reviewoutlaw.com/wp-content/uploads/2014/01/litecoin-news.png"
               alt="Litecoin Pic"
             />
-            <div class="card bg-black green-border" style="width: 18rem;">
+            <div class="card bg-black green-border card-drop" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">
@@ -130,12 +135,12 @@
           </div>
           <div class="col-md-4 col-12">
             <img
-              class="img-fluid"
+              class="img-fluid img-marg-bot"
               id="zcash-pic"
               src="https://i.postimg.cc/SNpK0wCJ/zcash-black.jpg"
               alt="Zcash Pic"
             />
-            <div class="card bg-black green-border" style="width: 18rem;">
+            <div class="card bg-black green-border card-drop" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">
@@ -147,11 +152,11 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 pt-5"></div>
-        </div>
+
+        <!-- problem on lines 152-155 -->
+
         <!-- line break -->
-        <div class="row">
+        <div class="row mt-5 line-break-pt">
           <div class="col-md-12">
             <hr id="green-line" />
           </div>
@@ -208,8 +213,6 @@
             <i class="fab fa-mastodon"></i>
           </p>
         </div>
-        <!-- 207 stacks on 200 on mobile without "d-flex flex-row-reverse". But without d-flex..., the bottom right element is centered" 
-        try media quary-->
         <div class="col-md-6 col-12 text-md-right text-center">
           <p>
             Donate:
@@ -217,8 +220,6 @@
           </p>
         </div>
       </footer>
-    </container>
+    </div>
   </body>
 </html>
-
-<!-- make cards spill out of bg-->
