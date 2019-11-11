@@ -18,7 +18,7 @@
   <body>
     <container class="container">
       <!-- navbar -->
-      <header class="row bg-black pt-2">
+      <header class="row bg-transparent pt-2" id="crypto-bg">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg">
             <img
@@ -63,6 +63,7 @@
         <!-- text & button + video  -->
         <div
           class="row vertical-align green-text"
+          id="crypto-bg"
           style="align-items: flex-end"
         >
           <div class="col-md-6 col-12 order-md-2 order-xs-1">
@@ -85,12 +86,12 @@
             </p>
             <!-- button -->
             <div>
-              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-info btn-block">Info</button>
             </div>
           </div>
         </div>
         <!-- 3 rounded images + cards -->
-        <div class="row text-center bg-black green-text">
+        <div class="row text-center green-text pb-5" id="crypto-bg">
           <div class="col-md-4 col-12">
             <img
               class="img-fluid"
@@ -109,7 +110,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 ">
             <img
               class="img-fluid"
               id="litecoin-pic"
@@ -146,8 +147,11 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-12 pt-5"></div>
+        </div>
         <!-- line break -->
-        <div class="row bg-black">
+        <div class="row">
           <div class="col-md-12">
             <hr id="green-line" />
           </div>
@@ -198,14 +202,15 @@
         class="row bg-dark text-white border border-top-white"
         id="footer-text"
       >
-        <div class="col-md-6 col-12">
+        <div class="col-md-6 col-12 text-md-left text-center">
           <p>
             Social Media:
             <i class="fab fa-mastodon"></i>
           </p>
         </div>
-        <!-- 207 stacks on 200 on mobile without "d-flex flex-row-reverse". But without d-flex..., the bottom right element is centered" -->
-        <div class="col-md-6 col-12 d-flex flex-row-reverse">
+        <!-- 207 stacks on 200 on mobile without "d-flex flex-row-reverse". But without d-flex..., the bottom right element is centered" 
+        try media quary-->
+        <div class="col-md-6 col-12 text-md-right text-center">
           <p>
             Donate:
             <i class="fab fa-bitcoin"></i>
@@ -215,3 +220,5 @@
     </container>
   </body>
 </html>
+
+<!-- make cards spill out of bg-->

@@ -31,6 +31,10 @@
   max-height: 200px;
 }
 
+#crypto-bg {
+  background-image: url(https://cdn-images-1.medium.com/max/2000/1*chVY5UAmYsqi2XMwQ5LWbg.png);
+}
+
 /* classes */
 .img-sm {
   max-width: 125px;
@@ -58,6 +62,13 @@
   position: absolute;
   bottom: -0.5em;
   right: 25%;
+  border: 10px;
+}
+
+.card-drop {
+  position: absolute;
+  bottom: 10em;
+  right: 15%;
   border: 10px;
 }
 
