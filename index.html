@@ -18,10 +18,14 @@
   <body>
     <div class="container">
       <!-- navbar -->
-      <header class="row bg-black">
+      <header class="row bg-black pt-2">
         <div class="col-12">
-          <nav class="navbar navbar-expand-lg green-text">
-            <a class="navbar-brand" href="#">Navbar</a>
+          <nav class="navbar navbar-expand-lg">
+            <img
+              class="img-fluid img-navbar img-rounded"
+              src="https://blog.grio.com/wp-content/uploads/2015/09/p2p.png"
+              alt=""
+            />
             <button
               class="navbar-toggler"
               type="button"
@@ -34,20 +38,20 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#"
+                  <a class="nav-link green-text" href="#"
                     >Home <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link green-text" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link green-text" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
+                  <a class="nav-link green-text" href="#">Disabled</a>
                 </li>
               </ul>
             </div>
@@ -57,10 +61,11 @@
       <main>
         <!-- text & button + video  -->
         <div
-          class="row vertical-align bg-black green-text"
-          style="align-items: flex-end"
+          class="row vertical-align green-text"
+          style="align-items: flex-end background-image: url(https://cdn-images-1.medium.com/max/2000/1*chVY5UAmYsqi2XMwQ5LWbg.png"
+          )
         >
-          <div class="col-md-6">
+          <div class="col-md-6 col-12 order-col-1">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
               labore officia reiciendis similique quos quasi tempore aspernatur
@@ -72,10 +77,11 @@
               <button type="button" class="btn btn-info">Info</button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-12 order-col-12">
+            <!-- width="560"
+              height="315" -->
             <iframe
-              width="560"
-              height="315"
+              class="img-fluid"
               src="https://www.youtube.com/embed/l9jOJk30eQs"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -85,54 +91,57 @@
         </div>
         <!-- 3 rounded images + cards -->
         <div class="row text-center bg-black green-text">
-          <div class="col-md-4">
+          <div class="col-md-4 col-12">
             <img
-              class="img-fluid img-shrink"
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.U_ixB9DMPamf9ZDd5BN_sAHaHa%26pid%3DApi&f=1"
+              class="img-fluid"
+              id="bitcoin-pic"
+              src="https://i.postimg.cc/44c3SJKD/bitcoin-black-bg.png"
               alt="Bitcoin Pic"
             />
-            <div class="card bg-black" style="width: 18rem;">
+            <div class="card bg-black green-border" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-info btn-drop">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-12">
             <img
-              class="img-fluid img-shrink"
+              class="img-fluid"
+              id="litecoin-pic"
               src="https://i0.wp.com/www.reviewoutlaw.com/wp-content/uploads/2014/01/litecoin-news.png"
               alt="Litecoin Pic"
             />
-            <div class="card bg-black" style="width: 18rem;">
+            <div class="card bg-black green-border" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-info btn-drop">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-12">
             <img
-              class="img-fluid img-shrink"
-              src="https://bitstickers.net/wp-content/uploads/2017/06/zcash-r.jpg"
+              class="img-fluid"
+              id="zcash-pic"
+              src="https://i.postimg.cc/SNpK0wCJ/zcash-black.jpg"
               alt="Zcash Pic"
             />
-            <div class="card bg-black" style="width: 18rem;">
+            <div class="card bg-black green-border" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-info btn-drop">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -145,7 +154,7 @@
         </div>
         <!-- lg image + lg text -->
         <div class="row bg-darkblue">
-          <div class="col-md-6">
+          <div class="col-md-6 margin">
             <img
               class="img-fluid"
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.jb6x2ilJmaSyACwCYaksQQHaEo%26pid%3DApi&f=1"
@@ -173,26 +182,30 @@
         <div class="row bg-darkblue">
           <div class="col-md-12 text-center">
             <img
-              class="img-fluid img-shrink"
+              class="img-fluid img-sm img-rounded border-bottom border-white"
               src="https://blog.grio.com/wp-content/uploads/2015/09/p2p.png"
               alt=""
             />
           </div>
           <!-- white line -->
           <div class="col-md-12">
-            <hr id="white-line" />
+            <hr style="width: 15%" id="white-line" />
           </div>
         </div>
       </main>
       <!-- footer -->
-      <footer class="row bg-dark text-white" id="footer-text">
-        <div class="col-md-6">
+      <footer
+        class="row bg-dark text-white border border-top-white"
+        id="footer-text"
+      >
+        <div class="col-md-6 col-12">
           <p>
             Social Media:
             <i class="fab fa-mastodon"></i>
           </p>
         </div>
-        <div class="col-md-6 d-flex flex-row-reverse">
+        <!-- 207 stacks on mobile without "d-flex flex-row-reverse" but doesn't with it" -->
+        <div class="col-md-6 col-12 d-flex flex-row-reverse">
           <p>
             Donate:
             <i class="fab fa-bitcoin"></i>
