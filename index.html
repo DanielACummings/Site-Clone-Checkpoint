@@ -16,7 +16,7 @@
     <title>Why Cryptocurrency?</title>
   </head>
   <body>
-    <div class="container">
+    <container class="container">
       <!-- navbar -->
       <header class="row bg-black pt-2">
         <div class="col-12">
@@ -26,6 +26,7 @@
               src="https://blog.grio.com/wp-content/uploads/2015/09/p2p.png"
               alt=""
             />
+            <!-- .navbar-toggler color manually changed in style.css & recognized by Chrome inspector as being green now, but browser still displays it black. Also changed .navbar-toggler-icon (line 39) to green in style.css -->
             <button
               class="navbar-toggler"
               type="button"
@@ -62,8 +63,7 @@
         <!-- text & button + video  -->
         <div
           class="row vertical-align green-text"
-          style="align-items: flex-end background-image: url(https://cdn-images-1.medium.com/max/2000/1*chVY5UAmYsqi2XMwQ5LWbg.png"
-          )
+          style="align-items: flex-end"
         >
           <div class="col-md-6 col-12 order-md-2 order-xs-1">
             <!-- width="560"
@@ -204,7 +204,7 @@
             <i class="fab fa-mastodon"></i>
           </p>
         </div>
-        <!-- 207 stacks on mobile without "d-flex flex-row-reverse" but doesn't with it" -->
+        <!-- 207 stacks on 200 on mobile without "d-flex flex-row-reverse". But without d-flex..., the bottom right element is centered" -->
         <div class="col-md-6 col-12 d-flex flex-row-reverse">
           <p>
             Donate:
@@ -212,6 +212,6 @@
           </p>
         </div>
       </footer>
-    </div>
+    </container>
   </body>
 </html>

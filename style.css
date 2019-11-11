@@ -42,6 +42,14 @@
   max-height: 50px;
 }
 
+.navbar-toggler {
+  color: rgb(53, 189, 0);
+}
+
+.navbar-toggler-icon {
+  color: rgb(53, 189, 0);
+}
+
 .img-rounded {
   border-radius: 50%;
 }
